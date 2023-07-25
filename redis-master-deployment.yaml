@@ -15,6 +15,7 @@ spec:
         app: redis
         role: master
         tier: backend
+        maker: ll
     spec:
       containers:
       - name: redis-master
